@@ -510,3 +510,80 @@ header {
 .form__box-inner button:focus {
     border-color: #ffc222;
 }
+
+.adv {
+    padding: 55px 0 45px;
+    min-height: 285px;
+    background-image: url(../img/adv-fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.adv__inner {
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.adv__item {
+    max-width: 380px;
+    padding: 0px 20px;
+}
+
+.adv__item-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+    color: white;
+    padding: 60px 0 25px;
+    position: relative;
+}
+
+.adv__item-title:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+}
+
+.adv__item-title:after {
+    content: "\f00c";
+    font-family: 'icomoon' !important;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.adv__item-text {
+    color: #d3d2d2;
+}
+
+.modal {
+    width: 95%;
+    margin-top: 20px;
+}
+
+.modal input {
+    display: block;
+    margin-bottom: 8px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal input[type="submit"]:hover {
+    cursor: pointer;
+}
